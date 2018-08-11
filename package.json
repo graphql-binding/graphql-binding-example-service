@@ -6,10 +6,14 @@
   "author": "Abhi Aiyer <abhiaiyer91@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "graphql-binding": "^2.2.2"
+    "apollo-link-http": "^1.5.4",
+    "graphql": "^0.13.2",
+    "graphql-binding": "^2.2.2",
+    "graphql-tools": "^3.1.1",
+    "node-fetch": "^2.2.0"
   },
   "scripts": {
-    "test": "mocha ./__tests__ --compilers js:babel-register"
+    "test": "mocha ./__tests__ --require babel-register --watch"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
