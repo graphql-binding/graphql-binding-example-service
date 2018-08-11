@@ -1,5 +1,5 @@
 {
-  "name": "graphql-binding-example-service",
+  "name": "graphql-binding-example",
   "version": "1.0.0",
   "main": "lib/index.js",
   "repository": "git@github.com:graphql-binding/graphql-binding-example-service.git",

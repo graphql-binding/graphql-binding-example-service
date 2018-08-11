@@ -1,2 +1,3 @@
-# graphql-binding-example-service
-GraphQL Bindings GraphQL server for examples
+# GraphQL Binding Example
+
+GraphQL Binding for an example Prisma Service
