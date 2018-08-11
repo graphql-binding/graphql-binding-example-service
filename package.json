@@ -1,6 +1,6 @@
 {
   "name": "graphql-binding-example",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "repository": "git@github.com:graphql-binding/graphql-binding-example-service.git",
   "author": "Abhi Aiyer <abhiaiyer91@gmail.com>",
@@ -13,6 +13,7 @@
     "node-fetch": "^2.2.0"
   },
   "scripts": {
+    "prepublish": "babel ./src --out-dir ./lib",
     "test": "mocha ./__tests__ --require babel-register --watch"
   },
   "devDependencies": {
