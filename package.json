@@ -13,7 +13,7 @@
     "node-fetch": "^2.2.0"
   },
   "scripts": {
-    "generate": "graphql-binding -i ./src/schema.js -l javascript -b ./src/binding.js",
+    "generate": "graphql-binding -i ./src/schema.js -l javascript -b ./src/index.js",
     "release": "standard-version",
     "prepare": "babel ./src --out-dir ./lib",
     "test": "mocha ./__tests__ --require babel-register --watch"

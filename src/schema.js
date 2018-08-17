@@ -29,4 +29,4 @@ const endpoint = `https://graphql-binding-example-service-kcbreqbsbh.now.sh`;
 const link = new HttpLink({ uri: endpoint, fetch });
 
 // Create the remote schema
-module.exports = { schema: makeRemoteExecutableSchema({ link, schema: typeDefs }) };
+module.exports = makeRemoteExecutableSchema({ link, schema: typeDefs });

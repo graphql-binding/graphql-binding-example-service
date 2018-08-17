@@ -44,9 +44,4 @@ describe("Example Binding", function() {
 
     expect(user).to.eql(null);
   });
-  //
-  // it("should return users from query", async function() {
-  //   const users = await userBinding.query.users();
-  //   expect(users.length).to.eql(1);
-  // });
 });
