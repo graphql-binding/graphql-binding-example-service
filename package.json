@@ -13,7 +13,8 @@
     "node-fetch": "^2.2.0"
   },
   "scripts": {
-    "generate": "graphql-binding -i ./src/schema.js -l javascript -b ./src/index.js -t ./src/typeDefs.graphql",
+    "generateTs": "graphql-binding -i ./src/schema.js -l typescript -b ./src/typings.ts",
+    "generate": "graphql-binding -i ./src/schema.js -l javascript -b ./src/binding.js -t ./src/typeDefs.graphql",
     "release": "standard-version",
     "prepare": "babel ./src --out-dir ./lib",
     "test": "mocha ./__tests__ --require babel-register --watch"
@@ -23,6 +24,7 @@
     "babel-preset-env": "^1.7.0",
     "chai": "^4.1.2",
     "mocha": "^5.2.0",
-    "standard-version": "^4.4.0"
+    "standard-version": "^4.4.0",
+    "typescript": "^3.0.1"
   }
 }

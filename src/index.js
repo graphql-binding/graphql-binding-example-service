@@ -1,4 +1,7 @@
-const { makeBindingClass } = require('graphql-binding')
-const schema = require('./schema')
+import ExtendedExampleBinding from "./ExtendedExampleBinding";
+import binding from "./binding";
 
-module.exports = makeBindingClass({ schema })
+
+export const UserServiceBinding = ExtendedExampleBinding;
+
+export const ExampleServiceBinding = binding;
